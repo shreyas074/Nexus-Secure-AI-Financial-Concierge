@@ -1,0 +1,6 @@
+# Core (everything needed for the offline demo, the servers, the orchestrator and the tests)
+mcp>=1.10,<2                 # official MCP SDK: FastMCP servers + ClientSession
+pydantic>=2.7,<3             # intake schema
+chromadb>=0.5                # local vector database
+sentence-transformers>=3.0   # all-MiniLM-L6-v2 embeddings (downloads ~80 MB the first time)
+pytest>=8.0

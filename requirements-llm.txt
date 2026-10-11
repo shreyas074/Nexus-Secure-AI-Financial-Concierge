@@ -1,0 +1,5 @@
+# Only for NEXUS_LLM=claude (CrewAI agents backed by Claude). Install AFTER requirements.txt.
+# crewai pins its own versions of chromadb/pydantic - if pip reports a conflict, use a separate virtualenv
+# for the live-Claude demo. Pin the exact versions you tested once it works.
+crewai>=0.100
+anthropic>=0.40
